@@ -44,7 +44,23 @@ Without these insights, Myntra risks losing customers to competitors and missing
 
    - **DonutChart (Product Distribution by Category):** Illustrates the contribution of Men, Women, Kids, and Beauty categories to overall sales.
 
-### 7) Key Insights 🔎
+### 7) Challenges Faced 🚧
+During the course of this project, several technical and data-related challenges were encountered and strategically addressed to ensure accuracy and reliability of the analysis:-
+
+**a) Data Cleaning Issues** 
+  - The dataset contained some inconsistencies like incorrect values & spellings in fields like subcategory, Color columns in Products table. They were handled by replacement startegies.
+  
+  - Ensured data consistency & quality by renaming columns,  trimming columns fields, rounding off numerical columns & adding calculated columns like Selling Price
+
+**b) Data Structure Complications** 
+  - While working on MS Excel it was crucial to merge different tables into a single consistent data table for correct insights & metrics calculations. This was tackled with the help of Lookup functions such as XLOOKUP.
+
+**c) Visual Calculation problems** 
+  - Encountered difficulties in sorting values by customer count while creating a bar chart to display state-wise customer distribution. This was resolved by generating a helper table using the GETPIVOTDATA function to extract values from the Pivot Table.
+    
+  - On dashboard creation encountered synchronization issues with the slicers used to resolve this enabled the "Report Connections" option for each slicer from the slicer settings pane.
+
+### 8) Key Insights 🔎
   - Total Sales of **₹1878.7K** generated from **3,500** orders, with an average rating of **3.98**.
 
   - High discount rate (**36%**) indicates strong reliance on price cuts to drive sales.
